@@ -12,7 +12,7 @@ function activate(context) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "region-dash" is now active!');
+	// console.log('Congratulations, your extension "region-dash" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
@@ -29,9 +29,9 @@ function activate(context) {
 			const charOffset = activeEditor.selection.active.character
 			let columnOffset = (getColumn(activeEditor.document.lineAt(lineOffset).text, charOffset)) + 1;
 
-			console.log(`line: ${lineOffset + 1}`)
-			console.log(`character: ${charOffset + 1}`)
-			console.log(`column: ${getColumn(activeEditor.document.lineAt(lineOffset).text,charOffset) + 1}`) //column
+			// console.log(`line: ${lineOffset + 1}`)
+			// console.log(`character: ${charOffset + 1}`)
+			// console.log(`column: ${getColumn(activeEditor.document.lineAt(lineOffset).text,charOffset) + 1}`) //column
 
 			let dashNum = 150 - columnOffset;
 
@@ -59,8 +59,8 @@ function activate(context) {
 		}
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from region-dash!');
-		console.log(text);
+		// vscode.window.showInformationMessage('Hello World from region-dash!');
+		// console.log(text);
 	});
 
 	context.subscriptions.push(disposable);
