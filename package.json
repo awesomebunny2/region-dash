@@ -2,7 +2,7 @@
   "name": "region-dash",
   "displayName": "region-dash",
   "description": "Auto-fills dash marks to the ruler guide",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.69.0"
   },
