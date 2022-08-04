@@ -1,65 +1,31 @@
 # region-dash README
 
-This is the README for your extension "region-dash". After writing up a brief description, we recommend including the following sections.
+The region-dash extension is simple. When run, - characters will be inserted into your code from the point of your curser up to column 151 (where my currrent guide is). If this every changes, I'll need to go into the settings and update the number from 150 ( always 1 less than output) to the new column number. Just run it by clicking CMD + SHIFT + P to open the VSCode command prompt and search for "dash". 
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
+Since this is inly going to be used by me and possibly some close friends, I have nothing further to say.
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+None as far as I'm aware.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+No settings are updated or adjusted. Just a simple extnesion that adds dynamic characters.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Could be more comprensive in the future if I want to really figure out the vscode API. But for now, it works for something I threw together in 45 minutes.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Fine. Here's the current release
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release of region-dash. Unlikely that there will be anymore. Sorry.
 
 ---
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
